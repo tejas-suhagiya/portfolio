@@ -1,0 +1,261 @@
+@media (min-width:1px) and (max-width:640px) {
+  
+
+/* header */
+
+header {
+	height: 100px;
+}
+header .container{
+    max-width: 640px;
+    width: 100%;
+}
+
+header .left {
+	max-width: 100px;
+}
+header .left img{
+    width: 70%;
+}
+
+header .right {
+	max-width: 130px;
+}
+
+header .right nav {
+	display: none;
+}
+
+header .right nav ul li {
+	margin: 0 10px;
+}
+
+header .right nav ul li a {
+	font-size: 16px;
+}
+header .hamburger {
+	display: block;
+}
+.banner{
+    text-align: center;
+    padding-top: 10px;
+    height: auto;
+}
+.banner .banner-img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+.banner h6{
+    font-size: 1rem;
+    margin: 5px;
+}
+.banner h1{
+    font-size: 2rem;
+    margin: 5px;
+}
+.banner h3{
+    font-size: 1rem;
+}
+.btn-resume{
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+    margin: 10px;
+    letter-spacing: 1px;
+}
+.top{
+    position: fixed;
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+    top: 430px;
+    right: 0px;
+    opacity: 0.6;
+    text-align: center;
+    cursor: pointer;
+    z-index: 3;
+}
+.top span{
+    font-size: 15px;
+    position: relative;
+}
+
+/* about section starts */
+
+.about{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+.about h6{
+    color: #727272;
+} 
+.about h6::after{
+    content: "";
+	width: 16px;
+	height: 2px;
+	position: absolute;
+	background: #727272;
+	border-radius: 4px;
+	left: 190px;
+    top: 14px;
+}
+.about .profile-img2{
+    display: flex;
+    margin-top: 1.5rem;
+
+}   
+.about h2{
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+.about .profile-img2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile-img2 img{
+    max-width: 75%;
+}
+.profile-img2 p{
+    margin:20px auto;
+    font-size: 15px;
+}
+
+/* work area starts */
+
+.work{
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    text-align: center;
+}
+.work h6{
+    color: #727272;
+}
+.work h2 {
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+.work > h6::after{
+    content: "";
+	width: 16px;
+	height: 2px;
+	position: absolute;
+	background: #727272;
+	border-radius: 4px;
+	left: 172px;
+    top: 12px;
+}
+.work-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.work .work-box{
+    width: 300px;
+    height: 300px;
+}
+
+/* technology area starts */
+
+.tech{
+    max-width: 300px;
+    text-align: center;
+}
+.tech > h6::after{
+    content: "";
+	width: 16px;
+	height: 2px;
+	position: absolute;
+	background: #727272;
+	border-radius: 4px;
+	left: 172px;
+    top: 12px;
+}
+
+.tech h2 {
+    padding-top: 5px;
+    font-size: 1.2rem;
+    padding-bottom: 25px;
+}
+.technologies{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+}
+.technologies .tech-box{
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+}
+.technologies .tech-box img{
+    width: 35%;
+    position: relative;
+    top: 22px;
+    left: 15px;  
+}   
+
+.contact{
+    text-align: center;
+    max-width: 300px;
+    margin: 30px auto;
+}
+.contact h6{
+    color: #727272;
+}
+.contact > h6::after{
+    content: "";
+	width: 16px;
+	height: 2px;
+	position: absolute;
+	background: #727272;
+	border-radius: 4px;
+	left: 182px;
+    top: 14px;
+}
+.contact h2{
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+.contact .contact-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px;
+    padding: 30px 30px;
+}
+footer .social-icons img{
+    padding: 10px;
+    width: 3.5%;
+}
+.contact-box .email h4,
+.contact-box .phone h4{
+    font-size: 16px;
+}
+
+.contact-box .email h6,
+.contact-box .phone h6{
+    font-size: 14px;
+}
+.contact-box .phone h6{
+    padding-top: 15px;
+}
+footer .social-icons img:hover{
+    transform: translateY(-10px);
+    transition: ease 0.2s;
+    cursor: pointer;
+}
+footer .social-icons{
+    text-align: center;
+}
+
+}
